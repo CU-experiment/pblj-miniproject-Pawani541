@@ -1,0 +1,24 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Rental {
+   private Car car;
+   private Customer customer;
+   private int days;
+
+   public Rental(Car var1, Customer var2, int var3) {
+      this.car = var1;
+      this.customer = var2;
+      this.days = var3;
+   }
+
+   public Car getCar() {
+      return this.car;
+   }
+
+   public Customer getCustomer() {
+      return this.customer;
+   }
+
+   public int getDays() {
+      return this.days;
+   }
+}
