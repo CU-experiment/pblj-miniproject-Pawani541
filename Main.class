@@ -1,0 +1,16 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class Main {
+   public Main() {
+   }
+
+   public static void main(String[] var0) {
+      CarRentalSystem var1 = new CarRentalSystem();
+      Car var2 = new Car("C001", "Toyota", "Camry", 60.0);
+      Car var3 = new Car("C002", "Honda", "Accord", 70.0);
+      Car var4 = new Car("C003", "Mahindra", "Thar", 150.0);
+      var1.addCar(var2);
+      var1.addCar(var3);
+      var1.addCar(var4);
+      var1.menu();
+   }
+}
