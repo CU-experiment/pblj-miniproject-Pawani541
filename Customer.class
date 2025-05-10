@@ -1,0 +1,18 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Customer {
+   private String customerId;
+   private String name;
+
+   public Customer(String var1, String var2) {
+      this.customerId = var1;
+      this.name = var2;
+   }
+
+   public String getCustomerId() {
+      return this.customerId;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+}

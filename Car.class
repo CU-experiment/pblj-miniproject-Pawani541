@@ -1,0 +1,44 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Car {
+   private String carId;
+   private String brand;
+   private String model;
+   private double basePricePerDay;
+   private boolean isAvailable;
+
+   public Car(String var1, String var2, String var3, double var4) {
+      this.carId = var1;
+      this.brand = var2;
+      this.model = var3;
+      this.basePricePerDay = var4;
+      this.isAvailable = true;
+   }
+
+   public String getCarId() {
+      return this.carId;
+   }
+
+   public String getBrand() {
+      return this.brand;
+   }
+
+   public String getModel() {
+      return this.model;
+   }
+
+   public double calculatePrice(int var1) {
+      return this.basePricePerDay * (double)var1;
+   }
+
+   public boolean isAvailable() {
+      return this.isAvailable;
+   }
+
+   public void rent() {
+      this.isAvailable = false;
+   }
+
+   public void returnCar() {
+      this.isAvailable = true;
+   }
+}
